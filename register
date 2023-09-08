@@ -1,0 +1,21 @@
+<html>
+  <titel></titel> 
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="contaniner">        
+        <h1>Registration Form</h1>
+        <p>Name</p>
+        <input type="text" name="user name " placeholder="Name"><br>
+        <p>Email address</p>
+        <input type="text" name="Email" placeholder="Email adaress"><br>
+        <p> Phone number</p>
+        <input type="text" name="Phone" placeholder="Phone number"><br>
+        <p>password</p>
+        <input type="password" name="Password" placeholder="Password"><br><br>
+        <input type="submit" name="CREATE ACCOUNT" value="CREATE ACCOUNT"><br><br>
+        I have an account?<a href="intex.html" >SING IN</a>
+        </div>
+    </body>
+</html>
