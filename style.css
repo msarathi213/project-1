@@ -1,9 +1,138 @@
 
 body{
+    background-image:url("background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: sans-serif;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    color: white;
+    float: left;
+    padding: 16px 14px;
+    text-decoration:none;
+}
+.contaniner{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 500px;
+    transform: translate(-50%, -50%); 
+    background:whitesmoke;
+    color: black;
+    border-radius: 10px;
+	padding:40px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="submit"]
+{
+    border: none;
+    height: 40px;
+    font-size:16px;
+}
+input[type="submit"]{
     background-color: blue;
     background-image: linear-gradient(to right,rgba(18, 21, 206, 0.842),rgb(165, 10, 152));
     background-size: cover;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+body{
+    background-image:url("background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     font-family: sans-serif;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    color: white;
+    float: left;
+    padding: 16px 14px;
+    text-decoration:none;
+}
+.contaniner{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 500px;
+    transform: translate(-50%, -50%); 
+    background:whitesmoke;
+    color: black;
+    border-radius: 10px;
+	padding:40px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="submit"]
+{
+    border: none;
+    height: 40px;
+    font-size:16px;
+}
+input[type="submit"]{
+    background-color: blue;
+    background-image: linear-gradient(to right,rgba(18, 21, 206, 0.842),rgb(165, 10, 152));
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+body{
+    background-image:url("background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: sans-serif;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    color: white;
+    float: left;
+    padding: 16px 14px;
+    text-decoration:none;
 }
 .contaniner{
 
