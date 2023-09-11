@@ -1,5 +1,4 @@
-body{
-}
+
 div{
     width: 80%;
     padding-left: 10%;
@@ -11,6 +10,15 @@ ul {
     padding: 10px;
     overflow: hidden;
 }
+
+#location{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
 li{
     float: left;
 }
