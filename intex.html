@@ -5,22 +5,65 @@
         <link rel="stylesheet" href="style2.css">
     </head>
     <body>
+        <!--Navigation bar-->
         <div> 
             <ul>
-                <li><img src="logo.png" style="width: 70px;"></li>
-                <li><div class="contaniner1">
-                    <select id="location">
+              
+                <li style="float:left;"><img src="logo.png" style="width: 70px;"></li>
+                <li><select id="location">
                     <option value=""></option>
                     <option value="Coimbatore">Coimbatore</option>
                     <option value="chennai">Chennai</option>
                     <option value="Tiruppur">Tiruppur</option>
                 </select></li>
+                <li><P>Food Safari</p></li>
+                <li style="float:right;"> <input type="search" id="gsearch" name="gsearch" placeholder="Search"></li>
                 <li style="float:right;"><a href="login.html">SING IN</a></li>
                 <li style="float:right;"><a href="register.html">SING UP</a></li>
-            </ul>
+            </ul><hr>
        </div>
-       <div>
-
-       </div>
+<!-- partial:index.partial.html -->
+<div class="controls">
+    <button class="previous" onclick="window.scrollBy(-100, 0)">
+        <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+      </button>
+      <button class="next" onclick="window.scrollBy(100, 0)">
+        <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+      </button>
+    </div>
+<!--What's on your mind?-->
+<div class="container-1">
+    <section id="section-1">
+          <article class="card">
+            <img src="Biryani_2.png" height="200" width="200">
+          </article>
+          <article class="card">
+            <img class="card-img" src="Parotta.webp" alt="placeholder-hand-drawn-vector" height="200" width="200">
+          </article>
+        <article class="card">
+          <img src="Dosa.webp" height="200" width="200">
+        </article>
+        <article class="card">
+          <img src="Idli.webp" height="200" width="200">
+        </article>
+        <article class="card">
+          <img class="card-img" src="Appam.webp" alt="placeholder-hand-drawn-vector" height="200" width="200">
+        </article>
+        <article class="card">
+            <img class="card-img" src="Burger.webp" alt="placeholder-hand-drawn-vector" height="200" width="200">
+          </article>
+        <article class="card">
+            <img class="card-img" src="North_Indian_4.webp" alt="placeholder-hand-drawn-vector" height="200" width="200">
+          </article>
+        <article class="card">
+            <img class="card-img" src="Pizza.webp" alt="placeholder-hand-drawn-vector" height="200" width="200">
+          </article>
+      </section>
+      </div>
+      
     </body>
 </html>
