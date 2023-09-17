@@ -1,5 +1,5 @@
 
-div{
+body{
     width: 80%;
     padding-left: 10%;
     margin:10px;
@@ -45,7 +45,17 @@ li a{
     text-decoration: none;
 }
 
-.controls{
+button{
+    float: right;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
 
-
+.container-1{
+    list-style-type: none;
+    margin:10px;
+    padding: 5px 5px 0px 0px;
+    overflow: hidden;
 }
