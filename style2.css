@@ -1,10 +1,11 @@
-
 body{
     width: 80%;
     padding-left: 10%;
     margin:10px;
 }
-
+ul.Navigation li{
+    display: inline;
+}
 ul {
     list-style-type: none;
     margin:10px;
@@ -44,7 +45,6 @@ li a{
     padding: 16px 14px;
     text-decoration: none;
 }
-
 button{
     float: right;
     background-color: whitesmoke;
@@ -52,10 +52,14 @@ button{
     margin: 10px;
     border-radius: 50%;
 }
+/*this sectios for grid*/
+#section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
-.container-1{
-    list-style-type: none;
-    margin:10px;
-    padding: 5px 5px 0px 0px;
-    overflow: hidden;
+    
+}
+.card{
+    height: 100%;
+    width: 100%;
 }
